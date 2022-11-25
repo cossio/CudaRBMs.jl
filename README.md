@@ -8,11 +8,11 @@ Some utilities to use [`RestrictedBoltzmannMachines`](https://github.com/cossio/
 
 ## Installation
 
-This package is not registered. Install with:
+This package is registered. Install with:
 
 ```julia
 import Pkg
-Pkg.add("git@github.com:cossio/CudaRBMs.jl.git")
+Pkg.add("CudaRBMs")
 ```
 
 ## Usage
