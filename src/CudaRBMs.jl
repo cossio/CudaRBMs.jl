@@ -1,11 +1,11 @@
 module CudaRBMs
 
-using CUDA: cu, CuArray
+using CUDA: cu
 using RestrictedBoltzmannMachines: RBM, Binary, Spin, Potts, Gaussian, ReLU, dReLU, pReLU, xReLU
 using Adapt: adapt
 
 gpu(x::AbstractArray) = cu(x)
-cpu(x::CuArray) = adapt(Array, x)
+cpu(x::AbstractArray) = adapt(Array, x)
 
 gpu(rbm::RBM) = RBM(gpu(rbm.visible), gpu(rbm.hidden), gpu(rbm.w))
 cpu(rbm::RBM) = RBM(cpu(rbm.visible), cpu(rbm.hidden), cpu(rbm.w))
