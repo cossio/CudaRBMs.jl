@@ -12,4 +12,4 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [v0.1.0]
 
-- Register package
+- Register package.
