@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
+## [v1.2.0]
+
+- Support RBMs v3.
+
 ## [v1.1.0]
 
 - Support CUDA v4.
