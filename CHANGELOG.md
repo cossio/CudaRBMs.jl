@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
+## [v1.3.0]
+
+- Support ∂RBM.
+
 ## [v1.2.0]
 
 - Support RBMs v3.
