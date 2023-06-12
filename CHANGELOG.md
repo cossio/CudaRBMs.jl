@@ -12,28 +12,28 @@ All notable changes to this project will be documented in this file. The format 
 
 - Move StandardizedRestrictedBoltzmannMachines methods to this package.
 
-## [v1.3.1]
+## v1.3.1
 
 - Fix ∂RBM.
 
-## [v1.3.0]
+## v1.3.0
 
 - Support ∂RBM.
 
-## [v1.2.0]
+## v1.2.0
 
 - Support RBMs v3.
 
-## [v1.1.0]
+## v1.1.0
 
 - Support CUDA v4.
 
-## [v1.0.0]
+## v1.0.0
 
 - Release v1.0.0.
 - This CHANGELOG file.
 - No breaking changes, but I wanted v1.0.
 
-## [v0.1.0]
+## v0.1.0
 
 - Register package.
