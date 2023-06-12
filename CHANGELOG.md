@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
+## v1.5.0
+
+- Move CenteredRBMs methods to this package.
+
 ## v1.4.0
 
 - Move StandardizedRestrictedBoltzmannMachines methods to this package.
