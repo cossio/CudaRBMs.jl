@@ -1,2 +1,1 @@
-using Test: @test
-import CudaRBMs
+module aqua_tests include("aqua.jl") end
