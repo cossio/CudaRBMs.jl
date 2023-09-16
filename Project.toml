@@ -1,7 +1,7 @@
 name = "CudaRBMs"
 uuid = "4e7460e3-fd1b-4f88-90fa-49c1b80b3e77"
 authors = ["Jorge Fernandez-de-Cossio-Diaz <j.cossio.diaz@gmail.com>"]
-version = "1.5.4"
+version = "1.5.5"
 
 [deps]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"

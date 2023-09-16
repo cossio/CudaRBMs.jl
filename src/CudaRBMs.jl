@@ -1,5 +1,6 @@
 module CudaRBMs
 
+import cuDNN
 using CUDA: cu
 using Adapt: adapt
 using RestrictedBoltzmannMachines: RBM, ∂RBM,
