@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## v1.5.4
+
+- Add `cuDNN` dependency. Otherwise a warning is displayed by `Flux` even on ocassions where we are not using GPU. See [this link](http://fluxml.ai/Flux.jl/stable/gpu/#GPU-Support).
+
 ## v1.5.0
 
 - Move CenteredRBMs methods to this package.

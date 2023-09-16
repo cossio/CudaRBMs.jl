@@ -7,5 +7,6 @@ using Test: @testset
     Aqua.test_all(
         CudaRBMs;
         ambiguities=(exclude=[reshape, get!, trunc, findall, Base.unsafe_convert],),
+        stale_deps=(ignore=[:cuDNN],),
     )
 end
