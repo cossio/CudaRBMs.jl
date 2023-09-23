@@ -1,7 +1,7 @@
 name = "CudaRBMs"
 uuid = "4e7460e3-fd1b-4f88-90fa-49c1b80b3e77"
 authors = ["Jorge Fernandez-de-Cossio-Diaz <j.cossio.diaz@gmail.com>"]
-version = "1.5.5"
+version = "1.5.6"
 
 [deps]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
@@ -13,7 +13,7 @@ cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
 [compat]
 Adapt = "3"
-CUDA = "3, 4"
+CUDA = "3, 4, 5"
 CenteredRBMs = "3, 4"
 RestrictedBoltzmannMachines = "0.38, 0.39, 1, 2, 3"
 StandardizedRestrictedBoltzmannMachines = "3, 4"
