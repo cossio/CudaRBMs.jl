@@ -1,7 +1,7 @@
 # CudaRBMs Julia package
 
 > [!WARNING]
-> This package is deprecated. Functionality has been incorporated in the [`RestrictedBoltzmannMachines`](https://github.com/cossio/RestrictedBoltzmannMachines.jl) package using the [Extensions](https://pkgdocs.julialang.org/v1/creating-packages/#Conditional-loading-of-code-in-packages-(Extensions)) mechanism.
+> This package is deprecated. Its functionality has been incorporated in the [`RestrictedBoltzmannMachines`](https://github.com/cossio/RestrictedBoltzmannMachines.jl) package using the [Extensions](https://pkgdocs.julialang.org/v1/creating-packages/#Conditional-loading-of-code-in-packages-(Extensions)) mechanism.
 
 Some utilities to use [`RestrictedBoltzmannMachines`](https://github.com/cossio/RestrictedBoltzmannMachines.jl) package with `CUDA`.
 
