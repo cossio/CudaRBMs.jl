@@ -18,4 +18,7 @@ CenteredRBMs = "3, 4"
 RestrictedBoltzmannMachines = "0.38, 0.39, 1, 2, 3"
 StandardizedRestrictedBoltzmannMachines = "3, 4"
 cuDNN = "1"
-julia = "1.8"
+julia = "1.12"
+
+[workspace]
+projects = ["test"]
